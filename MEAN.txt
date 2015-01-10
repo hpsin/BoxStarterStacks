@@ -2,6 +2,10 @@
 # Basic MEAN stack #
 ####################
 
+###### NOTES #######
+# MongoDB is currently a bit buggy - it will show a bunch of access denied messages and take a while, but will ultimately work.
+# MongoDB will be started as a Windows Service during install. 
+
 # region Basic Windows Config
 # See more at http://boxstarter.org/WinConfig
 Set-StartScreenOptions -EnableBootToDesktop -EnableListDesktopAppsFirst -EnableSearchEverywhereInAppsView
