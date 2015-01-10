@@ -27,6 +27,7 @@ cinst 'IIS-CGI /all' -source windowsfeatures #Installs IIS-CGI, IIS-ApplicationD
 cinst mysql
 cinst php
 [Environment]::SetEnvironmentVariable("PATH", $env:path+";c:\tools\php", "User") # adds PHP to the path.
+cinst vcredist2012 # Required for php, but the package is missing the dependency. 
 
 # Editor - choose one or more
 # cinst sublimetext3
