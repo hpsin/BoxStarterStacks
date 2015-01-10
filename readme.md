@@ -42,7 +42,7 @@ Stacks: (Installer links only work from IE or by calling START <link> in a comma
 ### Manual Installation
 It's easy!...ish.  You'll need to install [Chocolatey](https://chocolatey.org/).
 Once Chocolatey is installed, open an admin Powershell console and run the following:
-'''
+```
 PS:> cinst Boxstarter
 ... installing Boxstarter
 PS:> Boxstarter.bat 
@@ -50,4 +50,4 @@ Welcome to the Boxstarter shell!...
 PS:> <path to stack.ps1>
 Boxstarter: Enabling Remote Desktop...
 + Boxstarter starting Checking for updates...
-'''
+```
